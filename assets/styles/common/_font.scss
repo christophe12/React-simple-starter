@@ -1,40 +1,11 @@
-@font-face {
-    font-family: 'Flama basic';
-    src: url('./fonts/flama-basic-webfont.eot');/* IE9 Compat Modes */
-    src: url('./fonts/flama-basic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/flama-basic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('./fonts/flama-basic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/flama-basic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-  }
+// Sample font import
 
-@font-face {
-    font-family: 'Flama book';
-    src: url('./fonts/flama-book-webfont.eot');/* IE9 Compat Modes */
-    src: url('./fonts/flama-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/flama-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('./fonts/flama-book-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/flama-book-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+// @font-face {
+//     font-family: 'Flama basic';
+//     src: url('./fonts/flama-basic-webfont.eot');/* IE9 Compat Modes */
+//     src: url('./fonts/flama-basic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('./fonts/flama-basic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+//          url('./fonts/flama-basic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//          url('./fonts/flama-basic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+//   }
 
-@font-face {
-    font-family: 'Flama light';
-    src: url('./fonts/flama-light-webfont.eot');/* IE9 Compat Modes */
-    src: url('./fonts/flama-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/flama-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('./fonts/flama-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/flama-light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'Flama medium';
-    src: url('./fonts/flama-medium-webfont.eot');/* IE9 Compat Modes */
-    src: url('./fonts/flama-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('./fonts/flama-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('./fonts/flama-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('./fonts/flama-medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@font-face {
-    font-family: 'Nova Flat';
-    src: url('./fonts/NovaFlat.ttf') format('truetype');/* IE9 Compat Modes */
-}

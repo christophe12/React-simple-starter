@@ -33,16 +33,5 @@ body {
 	}
 }
 
-// app logo component styles
-.app-logo {
-	span {
-		font-family: $nova-flat;
-		&:first-child {
-			color: $white-color;
-		}
-		&:last-child {
-			color: $primary-color;
-		}
-	}
-}
+
 

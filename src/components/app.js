@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 
 class App extends Component {
 
-    componentDidMount() {
-        this.props.loginUser();
-    }
-
     render() {
         return (
             <div>

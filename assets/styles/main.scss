@@ -8,10 +8,7 @@
 //npm modules
 @import "~bootstrap/scss/bootstrap";
 
-
+//cross-browser styles
 @import "normalize";
 
-// layouts
-@import "layouts/header";
-@import "layouts/landing-page";
-@import "layouts/forms";
+// layouts styles in (layouts folder)
