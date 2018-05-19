@@ -10,5 +10,5 @@ Below is how to get started with this repo.
 ```
 > cd react-starter
 > npm install
-> npm start
+> npm run dev
 ```
