@@ -5,7 +5,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                React starter
+                React Hackathon
             </div>
         )
     }
