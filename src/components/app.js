@@ -5,7 +5,9 @@ class App extends Component {
     render() {
         return (
             <div>
-                React Hackathon
+
+                React js is awesome
+
             </div>
         )
     }
