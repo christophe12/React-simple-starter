@@ -1,0 +1,24 @@
+.main-header {
+    border: 1px solid blue;
+    @extend .reset-row;
+    min-height: 100vh;
+    width: 100%;
+
+    .row{
+        @extend .reset-row;
+        width: 100%;
+    }
+
+    .logo-container {
+        max-height: 300px;
+        border: 1px solid black;
+        @include flexbox;
+        @include flexjustifycontent(center);
+        @include flexalignitems(center);
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
+}
