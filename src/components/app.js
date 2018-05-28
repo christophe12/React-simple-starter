@@ -1,5 +1,5 @@
 import React from 'react';
-import Homepage from './views/homepage.js';
+import Homepage from './views/homepage';
 
 const App = () => {
     return(
