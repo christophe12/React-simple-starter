@@ -1,10 +1,10 @@
 .main-header {
     border: 1px solid blue;
     @extend .reset-row;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 
-    .row {
+    .row{
         @extend .reset-row;
         width: 100%;
     }

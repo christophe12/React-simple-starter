@@ -1,14 +1,14 @@
 import React from 'react';
 import Global from '../common/global';
 
-const Homepage = () => {
+const About = () => {
     return (
         <Global>
             <div>
-                <h5>This is the homepage</h5>
+                <h5>This is the About</h5>
             </div>
         </Global>
     );
 }
 
-export default Homepage;
+export default About;
