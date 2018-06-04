@@ -1,5 +1,5 @@
 .main-header{
-    border:1px solid blue;
+    //border:1px solid blue;
     @extend .reset-row;
     min-height: 100vh;
     width: 100%;
@@ -19,3 +19,4 @@
         max-height: 200px;
     }
 }
+
