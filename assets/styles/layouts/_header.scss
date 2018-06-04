@@ -9,7 +9,7 @@
     }
     .logo-container{
         max-height:300px;
-        border:1px solid green;
+        border: 0.1px solid $menu-border;
         @include flexbox;
         @include flexjustifycontent(center);
         @include flexalignitems (center);
@@ -20,3 +20,44 @@
     }
 }
 
+.nav-container {
+    .side-menu {
+        width: 100%;
+        padding: 0;
+        li {
+            width: 100%;
+            text-align: center;
+            list-style-type: none;
+
+            .side-menu__item-a {
+                width: 100%;
+                padding: 0.5rem;
+                display: block;
+                border-top: 0.1px solid $menu-border;
+                color: $menu-item-color;
+
+                &.active,
+                &:hover,
+                &:focus,
+                &:active {
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    @extend .reset-row;
+    padding: 2rem 0;
+    .copyright__p {
+        color: $menu-item-color;
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+}
