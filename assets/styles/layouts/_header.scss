@@ -37,9 +37,7 @@
                 color: $menu-item-color;
 
                 &.active,
-                &:hover,
-                &:focus,
-                &:active {
+                 {
                     color: black;
                     font-weight: bold;
                 }

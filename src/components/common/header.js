@@ -1,27 +1,56 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import companyLogo from '../../../assets/images/2.png';
 
-const Header = () => {
-    return(
-        <div className="main-header row">
-            <div className="logo-container row">
-                <img src={companyLogo} />
-            </div>
-            <div className="nav-container row">
-                <ul className="side-menu">
-                    <li><a href="#" className="side-menu__item-a active">home</a></li>
-                    <li><a href="#" className="side-menu__item-a">About</a></li>
-                    <li><a href="#" className="side-menu__item-a">Our Products</a></li>
-                    <li><a href="#" className="side-menu__item-a">Stories</a></li>
-                    <li><a href="#" className="side-menu__item-a">Team</a></li>
-                </ul>
-            </div>
+class Header extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            footerText: "2018 DMM.Hehe. All rights reserved"
+        };
+    }
 
-            <div className="copyright row">
-                <p className="copyright__p">&copy;2018 DMM.Hehe. All rights reserved</p>
+    componentDidMount() {
+        console.log('after');
+    }
+
+    componentWillMount() {
+        //mbere yuko component iba rendered
+        if(this.props.view === 'homepage') {
+            this.setState({
+                footerText: "2019"
+            });
+        }
+
+        console.log('before');
+    }
+
+
+
+    render() {
+        return(
+            <div>
+            <div className="main-header row">
+                <div className="logo-container row">
+                    <img src={companyLogo} />
+                </div>
+                <div className="nav-container row">
+                    <ul className="side-menu">
+                        <li><Link to="/" className={this.props.view === 'homepage' ? 'side-menu__item-a active' : 'side-menu__item-a'}>home</Link></li>
+                        <li><Link to="/about" className="side-menu__item-a">About</Link></li>
+                        <li><Link to="/product" className="side-menu__item-a">Our Products</Link></li>
+                        <li><a href="#" className="side-menu__item-a">Stories</a></li>
+                        <li><a href="#" className="side-menu__item-a">Team</a></li>
+                    </ul>
+                </div>
+    
+                <div className="copyright row">
+                    <p className="copyright__p">{`&copy;${this.state.footerText}`}</p>
+                </div>
             </div>
-        </div>
-    );
+            </div>
+        );
+    }
 };
 
 export default Header;
