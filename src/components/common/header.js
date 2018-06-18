@@ -25,8 +25,6 @@ class Header extends Component {
         console.log('before');
     }
 
-
-
     render() {
         return(
             <div>
@@ -39,7 +37,7 @@ class Header extends Component {
                         <li><Link to="/" className={this.props.view === 'homepage' ? 'side-menu__item-a active' : 'side-menu__item-a'}>home</Link></li>
                         <li><Link to="/about" className="side-menu__item-a">About</Link></li>
                         <li><Link to="/product" className="side-menu__item-a">Our Products</Link></li>
-                        <li><a href="#" className="side-menu__item-a">Stories</a></li>
+                        <li><Link to="/story" className="side-menu__item-a">Stories</Link></li>
                         <li><a href="#" className="side-menu__item-a">Team</a></li>
                     </ul>
                 </div>

@@ -3,7 +3,7 @@ import Global from '../common/global';
 
 const Team = () => {
     return (
-        <Global>
+        <Global page='team'>
             <div>
                 <h5>This is the Team</h5>
             </div>
